@@ -4,14 +4,12 @@ https://users.info.uvt.ro/~silviu/store/so2/
 
 TEMA1
 1. Scrieti un program in C ce primeste ca argument calea catre un fisier sau director si afiseaza informatiile continute in structura `stat` sub forma:
-
-"Informatii despre </cale/catre/fisier>
---------------------------------------
-Dimensiune:  X bytes
-Numarul de legatur: X legaturi
-Numarul inode: X
-Permisiuni: ----------
-Acest fisier este/nu este un link symbolic."
+- Informatii despre </cale/catre/fisier>
+- Dimensiune:  X bytes
+- Numarul de legatur: X legaturi
+- Numarul inode: X
+- Permisiuni: ----------
+- Acest fisier este/nu este un link symbolic."
 
 2. Extindeti programul de la punctul 1 sa suporte ca parametrii de intrare mai multe fisiere in acelasi timp pentru care trebuie afisate informatiile continute in structura `stat`.
 
